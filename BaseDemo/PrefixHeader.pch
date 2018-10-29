@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  BaseDemo
+//
+//  Created by 大橙子 on 2018/9/29.
+//  Copyright © 2018年 中都格罗唯视. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define IMAGENAME(a) [UIImage imageNamed:a]
+#define FONT(a) [UIFont systemFontOfSize:a]
+//颜色
+#define DCColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//自动获取导航条高度，用于适配iPhone X
+#define ISiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define navHeight (44)
+#define statusHeight (ISiPhoneX?44:20)
+#define tabbarHeight (ISiPhoneX?83:49)
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#import "UIView+Extension.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

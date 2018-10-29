@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800288C521869FF900A00E9A /* DCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800288C421869FF900A00E9A /* DCTabBarViewController.m */; };
+		800288C82186A00F00A00E9A /* DCNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800288C72186A00F00A00E9A /* DCNavigationViewController.m */; };
+		800288CB2186A01F00A00E9A /* DCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 800288CA2186A01F00A00E9A /* DCTabBar.m */; };
+		800288CE2186A05000A00E9A /* DCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800288CD2186A05000A00E9A /* DCFirstViewController.m */; };
+		800288D12186A05600A00E9A /* DCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800288D02186A05600A00E9A /* DCSecondViewController.m */; };
+		800288D42186A05D00A00E9A /* DCThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800288D32186A05D00A00E9A /* DCThirdViewController.m */; };
+		800288D72186A06600A00E9A /* DCForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 800288D62186A06600A00E9A /* DCForthViewController.m */; };
 		80DFFC99215F7E7100DC94E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFC98215F7E7100DC94E5 /* AppDelegate.m */; };
-		80DFFC9C215F7E7100DC94E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFC9B215F7E7100DC94E5 /* ViewController.m */; };
 		80DFFC9F215F7E7100DC94E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DFFC9D215F7E7100DC94E5 /* Main.storyboard */; };
 		80DFFCA1215F7E7400DC94E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80DFFCA0215F7E7400DC94E5 /* Assets.xcassets */; };
 		80DFFCA4215F7E7400DC94E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DFFCA2215F7E7400DC94E5 /* LaunchScreen.storyboard */; };
 		80DFFCA7215F7E7400DC94E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFCA6215F7E7400DC94E5 /* main.m */; };
 		80DFFCB1215F7E7400DC94E5 /* BaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFCB0215F7E7400DC94E5 /* BaseDemoTests.m */; };
 		80DFFCBC215F7E7400DC94E5 /* BaseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFCBB215F7E7400DC94E5 /* BaseDemoUITests.m */; };
+		80DFFCD1215F7F1700DC94E5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFCD0215F7F1700DC94E5 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +42,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		800288C321869FF900A00E9A /* DCTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTabBarViewController.h; sourceTree = "<group>"; };
+		800288C421869FF900A00E9A /* DCTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTabBarViewController.m; sourceTree = "<group>"; };
+		800288C62186A00F00A00E9A /* DCNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCNavigationViewController.h; sourceTree = "<group>"; };
+		800288C72186A00F00A00E9A /* DCNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCNavigationViewController.m; sourceTree = "<group>"; };
+		800288C92186A01F00A00E9A /* DCTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTabBar.h; sourceTree = "<group>"; };
+		800288CA2186A01F00A00E9A /* DCTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTabBar.m; sourceTree = "<group>"; };
+		800288CC2186A05000A00E9A /* DCFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFirstViewController.h; sourceTree = "<group>"; };
+		800288CD2186A05000A00E9A /* DCFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFirstViewController.m; sourceTree = "<group>"; };
+		800288CF2186A05600A00E9A /* DCSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSecondViewController.h; sourceTree = "<group>"; };
+		800288D02186A05600A00E9A /* DCSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCSecondViewController.m; sourceTree = "<group>"; };
+		800288D22186A05D00A00E9A /* DCThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCThirdViewController.h; sourceTree = "<group>"; };
+		800288D32186A05D00A00E9A /* DCThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCThirdViewController.m; sourceTree = "<group>"; };
+		800288D52186A06600A00E9A /* DCForthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCForthViewController.h; sourceTree = "<group>"; };
+		800288D62186A06600A00E9A /* DCForthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCForthViewController.m; sourceTree = "<group>"; };
 		80DFFC94215F7E7100DC94E5 /* BaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DFFC97215F7E7100DC94E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80DFFC98215F7E7100DC94E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80DFFC9A215F7E7100DC94E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		80DFFC9B215F7E7100DC94E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		80DFFC9E215F7E7100DC94E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80DFFCA0215F7E7400DC94E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80DFFCA3215F7E7400DC94E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +70,9 @@
 		80DFFCB7215F7E7400DC94E5 /* BaseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DFFCBB215F7E7400DC94E5 /* BaseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDemoUITests.m; sourceTree = "<group>"; };
 		80DFFCBD215F7E7400DC94E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DFFCCE215F7EBF00DC94E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		80DFFCCF215F7F1700DC94E5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		80DFFCD0215F7F1700DC94E5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +125,20 @@
 			children = (
 				80DFFC97215F7E7100DC94E5 /* AppDelegate.h */,
 				80DFFC98215F7E7100DC94E5 /* AppDelegate.m */,
-				80DFFC9A215F7E7100DC94E5 /* ViewController.h */,
-				80DFFC9B215F7E7100DC94E5 /* ViewController.m */,
+				800288C321869FF900A00E9A /* DCTabBarViewController.h */,
+				800288C421869FF900A00E9A /* DCTabBarViewController.m */,
+				800288C62186A00F00A00E9A /* DCNavigationViewController.h */,
+				800288C72186A00F00A00E9A /* DCNavigationViewController.m */,
+				800288C92186A01F00A00E9A /* DCTabBar.h */,
+				800288CA2186A01F00A00E9A /* DCTabBar.m */,
+				80DFFCCA215F7EB500DC94E5 /* main */,
+				80DFFCC9215F7EB500DC94E5 /* Other */,
 				80DFFC9D215F7E7100DC94E5 /* Main.storyboard */,
 				80DFFCA0215F7E7400DC94E5 /* Assets.xcassets */,
 				80DFFCA2215F7E7400DC94E5 /* LaunchScreen.storyboard */,
 				80DFFCA5215F7E7400DC94E5 /* Info.plist */,
 				80DFFCA6215F7E7400DC94E5 /* main.m */,
+				80DFFCCE215F7EBF00DC94E5 /* PrefixHeader.pch */,
 			);
 			path = BaseDemo;
 			sourceTree = "<group>";
@@ -130,6 +159,54 @@
 				80DFFCBD215F7E7400DC94E5 /* Info.plist */,
 			);
 			path = BaseDemoUITests;
+			sourceTree = "<group>";
+		};
+		80DFFCC9215F7EB500DC94E5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				80DFFCCF215F7F1700DC94E5 /* UIView+Extension.h */,
+				80DFFCD0215F7F1700DC94E5 /* UIView+Extension.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		80DFFCCA215F7EB500DC94E5 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				80DFFCCB215F7EB500DC94E5 /* Model */,
+				80DFFCCC215F7EB500DC94E5 /* View */,
+				80DFFCCD215F7EB500DC94E5 /* ViewController */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		80DFFCCB215F7EB500DC94E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80DFFCCC215F7EB500DC94E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		80DFFCCD215F7EB500DC94E5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				800288CC2186A05000A00E9A /* DCFirstViewController.h */,
+				800288CD2186A05000A00E9A /* DCFirstViewController.m */,
+				800288CF2186A05600A00E9A /* DCSecondViewController.h */,
+				800288D02186A05600A00E9A /* DCSecondViewController.m */,
+				800288D22186A05D00A00E9A /* DCThirdViewController.h */,
+				800288D32186A05D00A00E9A /* DCThirdViewController.m */,
+				800288D52186A06600A00E9A /* DCForthViewController.h */,
+				800288D62186A06600A00E9A /* DCForthViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +339,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80DFFC9C215F7E7100DC94E5 /* ViewController.m in Sources */,
+				800288C82186A00F00A00E9A /* DCNavigationViewController.m in Sources */,
 				80DFFCA7215F7E7400DC94E5 /* main.m in Sources */,
+				800288D42186A05D00A00E9A /* DCThirdViewController.m in Sources */,
+				800288CB2186A01F00A00E9A /* DCTabBar.m in Sources */,
+				80DFFCD1215F7F1700DC94E5 /* UIView+Extension.m in Sources */,
+				800288C521869FF900A00E9A /* DCTabBarViewController.m in Sources */,
+				800288D12186A05600A00E9A /* DCSecondViewController.m in Sources */,
 				80DFFC99215F7E7100DC94E5 /* AppDelegate.m in Sources */,
+				800288CE2186A05000A00E9A /* DCFirstViewController.m in Sources */,
+				800288D72186A06600A00E9A /* DCForthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +521,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +539,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
